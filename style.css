@@ -1,0 +1,56 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    background-color: #4577ED;
+    text-align: center;
+    color: #ffffff;
+    margin: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    padding: 0 10px;
+    color: #000000;
+    text-decoration: none;
+    transition: background-color 2s;
+    width: 200px;
+}
+
+nav a:hover, nav a:focus{
+    background-color: #ffffff;
+    color: #4577ED;
+}
+
+nav ul ul li {
+    display: block;
+    background-color: #4577ED;
+}
+
+nav ul ul li a{
+    display: block;
+}
+nav ul ul {
+    display: none;
+    position:absolute;
+}
+
+nav li:hover ul, nav li:focus ul {
+    display: block;
+}
+
+
+
