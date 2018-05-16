@@ -3,10 +3,10 @@
 }
 
 nav {
-    background-color: #4577ED;
+   background-color: #4577ED;
     text-align: center;
     color: #ffffff;
-    margin: 2%;
+    margin: 1%;
 }
 
 nav ul {
@@ -26,13 +26,15 @@ nav a {
     padding: 0 10px;
     color: #000000;
     text-decoration: none;
-    transition: background-color 2s;
+    transition: background-color 1s;
     width: 200px;
+    border: solid 1px #ffffff;
+
 }
 
-nav a:hover, nav a:focus{
-    background-color: #ffffff;
-    color: #4577ED;
+nav a:hover, nav a:focus {
+    background-color: gold;
+    color: #ffffff;
 }
 
 nav ul ul li {
@@ -43,9 +45,10 @@ nav ul ul li {
 nav ul ul li a{
     display: block;
 }
+
 nav ul ul {
     display: none;
-    position:absolute;
+    position: absolute;
 }
 
 nav li:hover ul, nav li:focus ul {
