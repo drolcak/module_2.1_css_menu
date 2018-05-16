@@ -29,7 +29,6 @@ nav a {
     transition: background-color 1s;
     width: 200px;
     border: solid 1px #ffffff;
-
 }
 
 nav a:hover, nav a:focus {
@@ -42,7 +41,7 @@ nav ul ul li {
     background-color: #4577ED;
 }
 
-nav ul ul li a{
+nav ul ul li a {
     display: block;
 }
 
