@@ -6,7 +6,7 @@ nav {
    background-color: #4577ED;
     text-align: center;
     color: #ffffff;
-    margin: 1%
+    margin: 1%;
 }
 
 nav ul {
@@ -20,15 +20,17 @@ nav li {
 }
 
 nav a {
-    height: 50px;
+    border: solid 1px #ffffff;
+    color: #000000;
     display: block;
+    height: 50px;
     line-height: 50px;
     padding: 0 10px;
-    color: #000000;
     text-decoration: none;
     transition: background-color 1s;
-    width: 200px;
-    border: solid 1px #ffffff;
+    width: 25vh;
+
+
 }
 
 nav a:hover, nav a:focus {
@@ -56,7 +58,7 @@ nav li:hover ul, nav li:focus ul {
 
 .flexbox {
     display: flex;
-    text-align: center;
     justify-content: center;
+    text-align: center;
 }
 
