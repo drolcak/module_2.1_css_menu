@@ -29,8 +29,6 @@ nav a {
     text-decoration: none;
     transition: background-color 1s;
     width: 25vh;
-
-
 }
 
 nav a:hover, nav a:focus {
@@ -56,7 +54,7 @@ nav li:hover ul, nav li:focus ul {
     display: block;
 }
 
-.flexbox {
+.main-list {
     display: flex;
     justify-content: center;
     text-align: center;
